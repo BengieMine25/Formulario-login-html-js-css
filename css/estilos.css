@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    background: rgb(21, 57, 201);
+    color: rgba(255, 255, 255, 0.989);
+    padding: 0;
+}
+
+body{
+    background: rgb(17, 147, 176);
+    padding-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    background: rgb(16, 165, 31);
+    color: rgb(237, 241, 241);
+    padding: 10px;
+}
+
+form {
+    background: rgb(136, 14, 185);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #000;
+    border-radius : 15px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 5px rgb(190, 216, 60);
+
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    border: rgb(40, 12, 12);
+}
