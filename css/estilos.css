@@ -40,3 +40,29 @@ input {
     border-radius: 15px;
     border: rgb(40, 12, 12);
 }
+
+#botones {
+    margin-top: 10px;
+    padding: 8px;
+}
+
+#botones button {
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+}
+
+#botones button:hover{
+    background: blue;
+    color: #fff;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+border: 1px solid blue;
+}
